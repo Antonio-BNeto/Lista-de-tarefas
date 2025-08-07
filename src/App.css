@@ -1,0 +1,160 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial;
+  background-color: hsl(220, 73%, 19%);
+  padding-top: 30px;
+  color: #fff;
+  background-image: url('./imgs/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.app {
+  max-width: 80%;
+  margin: 0 auto 300px;
+  padding: 30px 30px;
+  background-color: #85848462;
+  border-radius: 20px;
+  box-shadow: 0 0 15px #85848462;
+}
+
+.todo {
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d3d2d2c5;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.completed {
+  color: #02bd02;
+}
+
+.todo-list {
+  padding: 30px;
+  background-color: #8d8c8cc5;
+  border-radius: 20px;
+  box-shadow: 10px 15px 3px #000000;
+}
+
+.app h1 {
+  text-align: center;
+  font-style: italic;
+  font-size: 200%;
+  font-variant: small-caps;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.app p {
+  margin: 10px 0;
+}
+
+.todo__select {
+  appearance: none;
+}
+
+button {
+  background-color: #fafafa;
+  color: #000000;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 7px;
+  cursor: pointer;
+  opacity: .8;
+  transition: .3s;
+  font-weight: bold;
+  margin-right: 3px;
+}
+
+button:hover {
+  color: #fff;
+}
+
+.todo-list {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #000;
+}
+
+.todo__button {
+  display: grid;
+  grid-template-columns: 100px 40px; 
+}
+
+.todo__button--send:hover {
+  background-color: #02bd02;
+}
+
+.todo__button--remove:hover {
+  background-color: #ff0800;
+}
+
+.todo-form {
+  padding-bottom: 1.5rem;
+}
+
+.todo__form--submit:hover {
+  background-color: #808080;
+  box-shadow: 3px 4px 2px #000;
+}
+
+input, select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* Filter component */
+
+.filter h2 {
+  text-align: start;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.filter-options {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 5rem;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.filter__options--indent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-options p {
+  color: #000;
+  font-weight: bold;
+  align-items: center;
+}
+
+.filter-options button, 
+.filter-options select {
+  height: 25px;
+}
+
+.filter-options button:hover {
+  background-color: #000;
+  color: #fff;
+}
