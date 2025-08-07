@@ -1,19 +1,31 @@
-Lista de Tarefas com React
+# 📝 Lista de Tarefas com React
 
-🚀 Projeto de Lista de Tarefas (To-Do List) desenvolvido em React para gerenciar suas atividades diárias de forma simples e eficiente.
-📋 Funcionalidades
+🚀 Projeto de **Lista de Tarefas (To-Do List)** desenvolvido em **React** para gerenciar suas atividades diárias de forma simples e eficiente.
 
-✔️ Adicionar tarefas
-✔️ Marcar como concluídas
-✔️ Excluir tarefas
-✔️ Filtro por status (todas, incompletas, completas)
-✔️ Persistência no localStorage
-🛠️ Tecnologias Utilizadas
+---
 
-    React (Hooks: useState)
+## 📋 Funcionalidades
 
-    JavaScript (ES6+)
+✔️ Adicionar tarefas  
+✔️ Marcar tarefas como concluídas  
+✔️ Excluir tarefas  
+✔️ Filtrar tarefas por status (todas, incompletas, completas)
 
-    CSS (Estilização simples e responsiva)
+---
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+## 🛠️ Tecnologias Utilizadas
+
+- ⚛️ **React** (com Hooks: `useState`)  
+- 💛 **JavaScript (ES6+)**  
+- 🎨 **CSS** (estilização simples e responsiva)
+
+---
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas!  
+Sinta-se à vontade para abrir [issues](https://github.com/Antonio-BNeto/lista-de-tarefas/issues) ou enviar um [pull request](https://github.com/Antonio-BNeto/lista-de-tarefas/pulls).
+
+---
+
+**Obrigado por visitar o projeto!** 🎉
